@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "078a278f00dc4f1bd746d290b38c6621",
-    "content-hash": "4759ec4d76a0eabd83f9529c0f8a1e91",
+    "hash": "78d5ed75e1158dfa20f6dd16cbd452fc",
+    "content-hash": "aab2417ff554ea0bb39871bc2d3759c8",
     "packages": [
         {
             "name": "evenement/evenement",
@@ -185,6 +185,39 @@
                 "stream"
             ],
             "time": "2015-10-07 18:32:58"
+        },
+        {
+            "name": "svengerlach/flake",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/svengerlach/flake.git",
+                "reference": "9d86753c73e1130890bbeea9d2a14f9f7bcbb2b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/svengerlach/flake/zipball/9d86753c73e1130890bbeea9d2a14f9f7bcbb2b0",
+                "reference": "9d86753c73e1130890bbeea9d2a14f9f7bcbb2b0",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Svengerlach\\Flake\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Gerlach",
+                    "email": "sven.gerlach@qmarketing.de"
+                }
+            ],
+            "description": "Library that helps to generate unique 64 bit integers (for e.g. distributed id generation)",
+            "time": "2016-08-04 19:30:18"
         },
         {
             "name": "symfony/console",

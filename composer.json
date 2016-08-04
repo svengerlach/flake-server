@@ -11,14 +11,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "Svengerlach\\FlakeServer\\": "src/", 
-            "Svengerlach\\Flake\\": "../flake/src"
+            "Svengerlach\\FlakeServer\\": "src/"
         }
     }, 
     "bin": ["bin/flake-server"],
     "minimum-stability": "stable",
     "require": {
         "symfony/console": ">=2.3",
-        "react/socket": "~0.4"
+        "react/socket": "~0.4",
+        "svengerlach/flake": "^0.1"
     }
 }
