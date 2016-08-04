@@ -1,0 +1,24 @@
+{
+    "name": "svengerlach/flake-server",
+    "description": "Small server that leverages svengerlach/flake for distributed id generation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Gerlach",
+            "email": "sven.gerlach@qmarketing.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Svengerlach\\FlakeServer\\": "src/", 
+            "Svengerlach\\Flake\\": "../flake/src"
+        }
+    }, 
+    "bin": ["bin/flake-server"],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": ">=2.3",
+        "react/socket": "~0.4"
+    }
+}
